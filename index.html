@@ -37,7 +37,7 @@
     </div>
 	</div>
 	<script src="https://unpkg.com/vue"></script>
-  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script> 
 	<script src="https://unpkg.com/chart.js@2.7.2/dist/Chart.bundle.js"></script>
 	<script src="https://unpkg.com/vue-chartkick@0.4.0"></script>
 	<script src="https://gstatic.com/firebasejs/4.2.0/firebase.js"></script>
@@ -63,7 +63,7 @@ const router = new VueRouter({
   routes // short for `routes: routes`
 })
 		var db = firebase.initializeApp({
-        databaseURL: 'https://awesome-56c60.firebaseio.com'
+        databaseURL: 'https://bt3103333.firebaseio.com'
       }).database()
       var chartsRef = db.ref('charts')
       new Vue({
